@@ -1,6 +1,7 @@
 {
   "type": "MendProjector",
   "requirements": ["copper/10"],
+  "health": 5000,
   "size": 1,
   "reload": 100,
   "range": 320,
