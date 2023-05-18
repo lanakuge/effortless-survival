@@ -1,0 +1,25 @@
+{
+  "type": "ConsumeGenerator",
+  "health": 2000,
+  "requirements": ["lead/10", "copper/15"],
+  "powerProduction": 300,
+  "itemDuration": 120,
+  "size": 1,
+
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 1
+        }
+      ]
+    }
+  },
+
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.03,
+  "generateEffect": "generatespark",
+  "category": "power",
+  "research": "combustion-generator"
+}

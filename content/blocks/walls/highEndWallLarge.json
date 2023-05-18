@@ -1,0 +1,10 @@
+{
+  "type": "Wall",
+  "health": 100000000,
+  "requirements": ["copper/12"],
+  "size": 2,
+  "solid": false,
+  "category": "defense",
+  "research": "highEndWall",
+  "absorbLasers": true
+}

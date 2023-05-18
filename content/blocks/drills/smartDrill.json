@@ -1,0 +1,18 @@
+{
+  "type": "Drill",
+  "size": 2,
+  "health": 4000,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "requirements": ["copper/30", "lead/10"],
+  "drawMineItem": true,
+  "rotateSpeed": 2,
+  "liquidBoostIntensity": 2,
+  "drillTime": 1,
+  "hardnessDrillMultiplier": 1,
+  "tier": 6,
+  "category": "production",
+  "research": "mechanical-drill"
+}

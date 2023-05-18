@@ -3,5 +3,7 @@
   "health": 2000,
   "requirements": ["graphite/20", "copper/10"],
   "powerProduction": 20,
-  "size": 1
+  "size": 1,
+  "category": "power",
+  "research": "smartGenerator"
 }
