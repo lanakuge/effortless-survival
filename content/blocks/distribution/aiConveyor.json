@@ -1,0 +1,33 @@
+{
+  "type": "StackConveyor",
+  "loadEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+  },
+  "unloadEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+  },
+  "health": 7500,
+  "speed": 1,
+  "itemCapacity": 500,
+  "requirements": ["copper/10"],
+  "research": "smartConveyor",
+  "category": "distribution"
+}
