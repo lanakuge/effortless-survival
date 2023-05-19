@@ -1,0 +1,33 @@
+{
+  "type": "PowerTurret",
+  "hasPower": true,
+  "health": 2000,
+  "size": 1,
+  "consumes": {
+    "power": 5
+  },
+  "reload": 35,
+  "rotateSpeed": 10,
+  "range": 200,
+  "shoot": {
+    "shots": 6
+  },
+  "drawer": {
+    "type": "drawTurret"
+  },
+  "shootEffect": "lightningShoot",
+  "shootType": {
+    "type": "LightningBulletType",
+    "status": "shocked",
+    "lightningColor": "73FFAEFF",
+    "lightningCone": 1,
+    "damage": 50,
+    "lightningLength": 30,
+    "collidesAir": true,
+    "buildingDamageMultiplier": 0.25
+  },
+  "requirements": ["lead/75", "copper/75"],
+  "category": "turret",
+  "shootSound": "spark",
+  "research": "arc"
+}
