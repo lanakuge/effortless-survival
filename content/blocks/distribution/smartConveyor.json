@@ -3,7 +3,7 @@
   "health": 5000,
   "hasItems": true,
   "itemCapacity": 6,
-  "speed": 1,
+  "speed": 0.3,
   "displayedSpeed": 11,
   "requirements": ["copper/3"],
   "category": "distribution",
