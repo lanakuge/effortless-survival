@@ -1,4 +1,4 @@
-const lib = require("alib");
+const lib = require("alib.js");
 
 Events.on(SectorCaptureEvent, event => {
   // loads example.mp3
